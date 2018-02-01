@@ -1,5 +1,20 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    padding-top: 50px;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.template-pad {
+    padding: 40px 15px;
+}
+
+.starter-template .table {
+    text-align: left;
+}
+
+div.btn-danger {
+    float: right;
 }
