@@ -1,0 +1,264 @@
+{
+  "tech": [
+    {
+      "id": 1,
+      "language": "Angular",
+      "popularity": 5,
+      "relatedTech": {
+        "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
+      },
+      "hints": {
+        "hint": [
+          {
+            "id": 1,
+            "code": 0,
+            "title": "",
+            "summary": "Testing Summary",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "code": 0,
+            "title": "",
+            "summary": "Testing Summary with Code",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "language": "C#",
+      "popularity": 5,
+      "relatedTech": {
+        "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
+      },
+      "hints": {
+        "hint": [
+          {
+            "id": 1,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "language": "CSS",
+      "popularity": 5,
+      "relatedTech": {
+        "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
+      },
+      "hints": {
+        "hint": [
+          {
+            "id": 1,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "code": 1,
+            "title": "",
+            "summary": "Testing Summary with Code",
+            "link": ".overlayContent {\nwidth: calc(1920px - 70vw);\n}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "language": "HTML5",
+      "popularity": 5,
+      "relatedTech": {
+        "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
+      },
+      "hints": {
+        "hint": [
+          {
+            "id": 1,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "language": "Java",
+      "popularity": 5,
+      "relatedTech": {
+        "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
+      },
+      "hints": {
+        "hint": [
+          {
+            "id": 1,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "language": "JavaScript ES5/6/7",
+      "popularity": 5,
+      "relatedTech": {
+        "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
+      },
+      "hints": {
+        "hint": [
+          {
+            "id": 1,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "language": "Python",
+      "popularity": 5,
+      "relatedTech": {
+        "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
+      },
+      "hints": {
+        "hint": [
+          {
+            "id": 1,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "language": "React",
+      "popularity": 5,
+      "relatedTech": {
+        "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
+      },
+      "hints": {
+        "hint": [
+          {
+            "id": 1,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "language": "TypeScript",
+      "popularity": 5,
+      "relatedTech": {
+        "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
+      },
+      "hints": {
+        "hint": [
+          {
+            "id": 1,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "language": "VB.Net",
+      "popularity": 5,
+      "relatedTech": {
+        "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
+      },
+      "hints": {
+        "hint": [
+          {
+            "id": 1,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "code": 0,
+            "title": "",
+            "summary": "",
+            "link": ""
+          }
+        ]
+      }
+    }
+  ]
+}
