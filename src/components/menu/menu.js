@@ -6,8 +6,10 @@ const NavBarLink = ({ label, to, activeOnlyWhenExact }) => (
     path={to}
     exact={activeOnlyWhenExact}
     children={({ match }) => (
-      <li className={match ? "active" : ""}>
-        <Link to={to}>{label}</Link>
+      <li className={match ? "nav-item active" : "nav-item"}>
+        <Link className="nav-link" to={to}>
+          {label}
+        </Link>
       </li>
     )}
   />
@@ -15,28 +17,26 @@ const NavBarLink = ({ label, to, activeOnlyWhenExact }) => (
 
 const Menu = () => {
   return (
-    <nav className="navbar navbar-inverse navbar-fixed-top">
+    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div className="container">
         <div className="navbar-header">
           <button
+            class="navbar-toggler"
             type="button"
-            className="navbar-toggle collapsed"
             data-toggle="collapse"
-            data-target="#navbar"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
             aria-expanded="false"
-            aria-controls="navbar"
+            aria-label="Toggle navigation"
           >
-            <span className="sr-only">Toggle navigation</span>
-            <span className="icon-bar" />
-            <span className="icon-bar" />
-            <span className="icon-bar" />
+            <span class="navbar-toggler-icon" />
           </button>
           <a className="navbar-brand" href="/">
-            Track Your Tasks
+            Sogeti Dev Hints
           </a>
         </div>
-        <div id="navbar" className="collapse navbar-collapse">
-          <ul className="nav navbar-nav">
+        <div id="navbarCollapse" className="collapse navbar-collapse">
+          <ul className="navbar-nav mr-auto">
             <NavBarLink activeOnlyWhenExact={true} to="/" label="Home" />
             <NavBarLink to="/about" label="About" />
             <NavBarLink to="/faq" label="FAQs" />
