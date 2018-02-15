@@ -29,7 +29,7 @@
     {
       "id": 2,
       "language": "C#",
-      "popularity": 5,
+      "popularity": 4,
       "relatedTech": {
         "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
       },
@@ -55,7 +55,7 @@
     {
       "id": 3,
       "language": "CSS",
-      "popularity": 5,
+      "popularity": 2,
       "relatedTech": {
         "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
       },
@@ -81,7 +81,7 @@
     {
       "id": 4,
       "language": "HTML5",
-      "popularity": 5,
+      "popularity": 0,
       "relatedTech": {
         "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
       },
@@ -107,7 +107,7 @@
     {
       "id": 5,
       "language": "Java",
-      "popularity": 5,
+      "popularity": 0,
       "relatedTech": {
         "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
       },
@@ -133,7 +133,7 @@
     {
       "id": 6,
       "language": "JavaScript ES5/6/7",
-      "popularity": 5,
+      "popularity": 3,
       "relatedTech": {
         "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
       },
@@ -159,7 +159,7 @@
     {
       "id": 7,
       "language": "Python",
-      "popularity": 5,
+      "popularity": 0,
       "relatedTech": {
         "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
       },
@@ -185,7 +185,7 @@
     {
       "id": 8,
       "language": "React",
-      "popularity": 5,
+      "popularity": 1,
       "relatedTech": {
         "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
       },
@@ -211,7 +211,7 @@
     {
       "id": 9,
       "language": "TypeScript",
-      "popularity": 5,
+      "popularity": 0,
       "relatedTech": {
         "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
       },
@@ -237,7 +237,7 @@
     {
       "id": 10,
       "language": "VB.Net",
-      "popularity": 5,
+      "popularity": 0,
       "relatedTech": {
         "techIDs": [{ "id": 3 }, { "id": 4 }, { "id": 9 }]
       },
